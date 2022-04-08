@@ -538,6 +538,7 @@ export function registerCommands(): void {
     disposables.push(vscode.commands.registerCommand('C_Cpp.RunCodeAnalysisOnOpenFiles', onRunCodeAnalysisOnOpenFiles));
     disposables.push(vscode.commands.registerCommand('C_Cpp.RunCodeAnalysisOnAllFiles', onRunCodeAnalysisOnAllFiles));
     disposables.push(vscode.commands.registerCommand('C_Cpp.ClearCodeAnalysisSquiggles', onClearCodeAnalysisSquiggles));
+    disposables.push(vscode.commands.registerCommand('C_Cpp.CreateDeclarationOrDefinition', onCreateDeclarationOrDefinition));
     disposables.push(vscode.commands.registerCommand('cpptools.activeConfigName', onGetActiveConfigName));
     disposables.push(vscode.commands.registerCommand('cpptools.activeConfigCustomVariable', onGetActiveConfigCustomVariable));
     disposables.push(vscode.commands.registerCommand('cpptools.setActiveConfigName', onSetActiveConfigName));
@@ -716,6 +717,10 @@ async function onRunCodeAnalysisOnAllFiles(): Promise<void> {
 
 async function onClearCodeAnalysisSquiggles(): Promise<void> {
     getActiveClient().handleClearCodeAnalysisSquiggles();
+}
+
+async function onCreateDeclarationOrDefinition(uri: vscode.Uri | undefined, line: number | undefined, character: number | undefined): Promise<void> {
+    getActiveClient().handleCreateDeclarationOrDefinition(uri, line, character);
 }
 
 function onAddToIncludePath(path: string): void {
