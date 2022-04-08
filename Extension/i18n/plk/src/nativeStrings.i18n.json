@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Wyczyść zygzaki rozszerzenia Code Analysis",
 	"multiple_locations_note": "(Wiele lokalizacji)",
 	"folder_tag": "Folder",
-	"file_tag": "Plik"
+	"file_tag": "Plik",
+	"compiler_default_language_standard_version_old": "Kompilator zwrócił domyślną wersję standardową języka: {0}. Ponieważ ta wersja jest stara, spróbuje użyć nowszej wersji {1} jako domyślnej."
 }

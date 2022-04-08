@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "清除代码分析波形曲线",
 	"multiple_locations_note": "(多个位置)",
 	"folder_tag": "文件夹",
-	"file_tag": "文件"
+	"file_tag": "文件",
+	"compiler_default_language_standard_version_old": "编译器返回默认语言标准版本:{0}。由于此版本是旧版本，因此将尝试使用较新版本 {1} 作为默认版本。"
 }

@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "清除程式碼分析曲線",
 	"multiple_locations_note": "(多個位置)",
 	"folder_tag": "資料夾",
-	"file_tag": "檔案"
+	"file_tag": "檔案",
+	"compiler_default_language_standard_version_old": "編譯器傳回預設語言標準版本: {0}。因為此版本為舊版本，將嘗試使用較新的版本 {1} 為預設版本。"
 }

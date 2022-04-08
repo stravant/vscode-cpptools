@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Borrar el subrayado ondulado del análisis de código",
 	"multiple_locations_note": "(Varias ubicaciones)",
 	"folder_tag": "Carpeta",
-	"file_tag": "Archivo"
+	"file_tag": "Archivo",
+	"compiler_default_language_standard_version_old": "El compilador devolvió la versión estándar del lenguaje predeterminado: {0}. Dado que esta versión es antigua, se intentará usar la versión {1}, más reciente, como predeterminada."
 }

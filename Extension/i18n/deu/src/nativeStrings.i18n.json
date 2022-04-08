@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Code Analysis-Wellenlinien löschen",
 	"multiple_locations_note": "(Mehrere Standorte)",
 	"folder_tag": "Ordner",
-	"file_tag": "Datei"
+	"file_tag": "Datei",
+	"compiler_default_language_standard_version_old": "Der Compiler hat die Standardversion der Standardsprache zurückgegeben: {0}. Da diese Version alt ist, wird versucht, eine neuere Version {1} als Standard zu verwenden."
 }

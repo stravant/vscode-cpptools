@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Code analysis dalgalarını temizle",
 	"multiple_locations_note": "(Birden fazla konum)",
 	"folder_tag": "Klasör",
-	"file_tag": "Dosya"
+	"file_tag": "Dosya",
+	"compiler_default_language_standard_version_old": "Derleyici varsayılan dil standart sürümünü döndürdü: {0}. Bu sürüm eski olduğundan daha yeni {1} sürümünü varsayılan olarak kullanmayı deneyeceğiz."
 }

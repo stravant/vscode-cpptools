@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Cancella segni di revisione di analisi del codice",
 	"multiple_locations_note": "(Più località)",
 	"folder_tag": "Cartella",
-	"file_tag": "File"
+	"file_tag": "File",
+	"compiler_default_language_standard_version_old": "Il compilatore ha restituito la versione standard del linguaggio predefinito: {0}. Poiché questa versione è obsoleta, verrà eseguito un tentativo di utilizzare la versione più recente {1} come predefinita."
 }

@@ -219,5 +219,6 @@
 	"clear_code_analysis_squiggles": "Limpar rabiscos de análise de código",
 	"multiple_locations_note": "Vários locais",
 	"folder_tag": "Pasta",
-	"file_tag": "Arquivo"
+	"file_tag": "Arquivo",
+	"compiler_default_language_standard_version_old": "O compilador retornou a versão padrão do idioma padrão: {0}. Como essa versão é antiga, tentaremos usar a versão {1} mais recente como padrão."
 }
